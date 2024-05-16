@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MainController!{% endblock %}
+
+{% block body %}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h1>Hello {{ controller_name }}! ✅</h1>
+        </div>
+        <div class="card-body">
+            <p>Ce message amical provient de :</p>
+            <ul class="list-group">
+                <li class="list-group-item">Votre contrôleur à <code>/app/src/Controller/MainController.php</code></li>
+                <li class="list-group-item">Votre modèle à <code>/app/templates/main/index.html.twig</code></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
